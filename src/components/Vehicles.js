@@ -16,7 +16,7 @@ class Vehicles extends Component {
   render() {
     let vehicles = this.state.vehicles.map(vehicle => {
       return (
-        <div className="col-sm-4" key={vehicle.id}>
+        <div className="col-sm-4 row-eq-height" key={vehicle.id}>
           <div className="card">
             <div className="card-block">
               <h4 className="card-title">Vehicle: {vehicle.name}</h4>
@@ -42,7 +42,9 @@ class Vehicles extends Component {
     })
 
     return (
-      <div>{vehicles}</div>
+      <div>
+        <div className="row">{vehicles}</div>
+      </div>
     )
   }
 }
