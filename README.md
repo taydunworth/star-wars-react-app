@@ -1,2 +1,2 @@
 # Star Wars Vehicle Library React App
-This project was created with  `create-react-app` to experiment with components, event handlers with text input, and fetching from the [SWAPI API] (https://swapi.co/).
+This project was created with  `create-react-app` to experiment with components, event handlers with text input, and fetching from the [SWAPI API](https://swapi.co/).
